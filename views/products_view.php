@@ -56,7 +56,7 @@ if (isset($_POST['search'])) {
 
 
 <?php
-echo '<h1>Produsee</h1>';
+echo '<h1>Produse</h1>';
 $elements = count($products);
 
 for ($i = 0; $i < $elements; $i++) {
