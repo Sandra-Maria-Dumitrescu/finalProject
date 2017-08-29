@@ -1,0 +1,320 @@
+@font-face { font-family: Avant-Grande; src: url('fonts/Avant-garde-ce-gothic-book.ttf'); }
+body{
+	background-image: url("../img/bg.jpg");
+	margin: 0;
+	padding: 0;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+a{	text-decoration: none;	}
+a:hover{	color: #CC5200;	}
+
+
+
+/************************************
+ *			 @main Wrapper			*
+ ************************************/
+#main_wrapper{
+	width: 920px;
+	background-color: #fff;
+	margin: 0 auto;
+	box-shadow: 0px 6px 19px 9px rgba(0,0,0,0.8);
+	padding: 0 20px 0 20px;
+}
+
+/************************************
+ *			 @header				*
+ ************************************/
+ #logo{
+ 	margin-top: 10px;
+ 	background-color: red;
+ 	height: 122px;
+ 	float: left;
+ }
+
+/************************************
+ *			 @contact us			*
+ ************************************/
+ #contact_us{
+ 	float: right;
+ 	margin-top: 10px;
+ 	padding-top: 45px;
+ }
+ #contact_us ul{
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ #contact_us li{
+ 	display: inline;
+ 	padding-left: 11px;
+ }
+
+ /***********************************
+ *			 @main nav				*
+ ************************************/
+ #main_nav{
+ 	clear: both;
+ 	border:1px solid #D7AB7C;
+ 	background: #5a5a5a; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top,  #5a5a5a 0%, #595959 7%, #515151 23%, #2e2e2e 80%, #2e2e2e 83%, #292929 87%, #292929 93%, #262626 97%, #262626 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a5a5a), color-stop(7%,#595959), color-stop(23%,#515151), color-stop(80%,#2e2e2e), color-stop(83%,#2e2e2e), color-stop(87%,#292929), color-stop(93%,#292929), color-stop(97%,#262626), color-stop(100%,#262626)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#262626',GradientType=0 ); /* IE6-8 */
+	
+ }
+ #main_nav li{
+ 	list-style: none;
+ 	display: inline;
+ 	padding-right: 50px;
+ } 
+ #main_nav a{
+ 	font-size:18px;
+ 	/*color: #3B1203;*/
+ 	color: #fff;
+ }
+ #main_nav a:hover{	color: #DA8247; }
+ #home .navHome, #caini .navCaini, #pisici .navPisici, #pasari .navPasari,
+ #pesti .navPesti, #reptile .navReptile, #rozatoare .navRozatoare,
+ #contact .navContact{
+ 	color: #DA8247;
+ }
+
+ /************************************
+ *			 @banner				*
+ ************************************/
+ #banner{ 	clear: both; 	}
+
+ /***********************************
+ *			 @main content			*
+ ***********************************/
+ #main_content{
+ 	float: left;
+ 	width: 650px;
+ 	padding-top: 20px;
+ 	line-height: 25px;
+ }
+ #main_content h1{
+ 	font-family: 'Crimson Text', serif;
+ 	font-size: 28px;
+     font-style: italic;
+ }
+#main_content #errorPage{
+    border: 3px solid whitesmoke;
+    padding: 0 0 30px 30px;
+
+}
+#main_content #errorPage h2{
+    color: peru;
+    font-style: italic;
+}
+ /***********************************
+ *			 @aside 				*
+ ***********************************/
+aside{
+ 	float: right;
+ 	width: 220px;
+ 	padding: 20px;
+}
+aside p{
+	padding: 5px;
+	margin: 0;
+}
+aside a{	color: #CC5200;		}
+aside h3{	padding-left: 0;	}
+.emailSidebar{
+	position: relative;
+	bottom: 20px;
+	left: 10px;
+}
+.paddingLeft{	padding-left: 16px;		}
+.paddingBottom{	padding-bottom: 5px;	}
+.moreInfo{
+	font-size: 14px;
+	color: #555555;
+}
+.noBullets{
+	list-style: none;
+}
+
+/************************************
+*			 @footer				*
+************************************/
+footer{
+	clear: both;
+	background: #5a5a5a; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top,  #5a5a5a 0%, #595959 7%, #515151 23%, #2e2e2e 80%, #2e2e2e 83%, #292929 87%, #292929 93%, #262626 97%, #262626 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a5a5a), color-stop(7%,#595959), color-stop(23%,#515151), color-stop(80%,#2e2e2e), color-stop(83%,#2e2e2e), color-stop(87%,#292929), color-stop(93%,#292929), color-stop(97%,#262626), color-stop(100%,#262626)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5a5a5a 0%,#595959 7%,#515151 23%,#2e2e2e 80%,#2e2e2e 83%,#292929 87%,#292929 93%,#262626 97%,#262626 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#262626',GradientType=0 ); /* IE6-8 */
+	color: #fff;
+	width: 960px;
+	position: relative;
+	right: 20px;
+	border-top: 1px solid #CC5200;
+
+}
+footer p{
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	font-size: 13px;
+}
+footer a{
+	color: #fff;
+	font-weight: bold;
+}
+#footer_nav ul{
+	margin: 0;
+	padding: 10px 0 10px 20px;
+	list-style: none;
+	border-bottom: 1px solid #555;
+}
+#footer_nav li{
+	display: inline;
+	padding-right: 60px;
+}
+
+/************************************
+*			 @clegislatie			*
+************************************/
+.paddingBot{
+	padding-bottom: 5px;
+	margin: 0;
+}
+.paddingTop{ padding-top: 10px;		}
+h4{	margin:0 0 0 20px;	  }
+
+/************************************
+*			 @caini 				*
+************************************/
+.padding20{ 
+	padding: 10px;
+	font-size: 17px;
+	color: #B88C5B;
+}
+.a_style{
+	color: #CC5200;
+	text-decoration: underline;
+}
+.fl{ float: left; margin-right: 20px;}
+
+/************************************
+*			 @pisici 				*
+************************************/
+.imgStyle{
+	padding: 5px;
+	border: 1px solid  #C09260;
+    width: 200px;
+	height: 160px;
+}
+
+/************************************
+*			 @contact form			*
+************************************/
+#contactForm{
+	margin-top: 50px;
+}
+form{
+	text-align:left;
+	margin:20px;
+}
+label{
+	background-color: none;
+	float: left;
+	width: 120px;
+	text-align: right;
+	display: block;
+	font-weight: bold;
+}
+.submit{
+	background:none;
+	width: 90px;
+	height: 25px;
+	margin-left: 130px;
+	font-size: 12px;
+}
+textarea {
+		width: 280px; 
+		height: 150px; 
+		margin:0 0 16px 10px;
+		border:1px #bbb solid; 
+		padding:5px; 
+		background:none; 
+}
+input{ 
+	width: 280px; 
+	margin:0 0 16px 10px;
+	border:1px #bbb solid;
+	padding:5px; 
+	background:none; 
+}
+input:focus, textarea:focus{
+	background-color:#BFEBFF;
+}
+select{
+	margin-bottom:20px;
+}
+ol{
+	list-style: none;
+}
+.featuredPets{
+    width: 200px;
+    padding: 2px;
+    border: 1px solid peru;
+    margin-left: -40px;
+}
+#fred{
+    color: peru;
+    font-style: italic;
+    font-weight:bold;
+    position: relative;
+    top: -10px;
+    padding-left:20px;
+}
+
+.categoryItem{
+    border: 1px dashed peru;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 15px;
+    color:#7B7B7B;
+    font-weight:700;
+}
+
+.categoryItem h1{
+    margin: 10px;
+}
+
+#searchProduct{
+	/*background: darkred;*/
+	/*width: 300px;*/
+	position: relative;
+	top: -275px;
+	/*right: 30px;*/
+	/*position: relative;*/
+	left: 670px;
+	/*bottom: 295px;*/
+}
+
+#searchProduct form{
+	margin: 0;
+	padding:0;
+	display: inline;
+}
+
+#searchProduct input{
+	width:100px;
+	color: #000;
+	background-color: whitesmoke;
+	margin:0;
+}

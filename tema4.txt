@@ -1,0 +1,7 @@
+Folosind structura MVC prezentata de Marius la cursul trecut, va rugam sa realizati un website tip Catalog de produse Online (conceptie proprie), cu un design asa cum il doriti – puteti sa folositi template-uri free pentru design, care sa aiba urmatoarea structura:
+[x]- Homepage
+[x]- Pagina de Categorie, cu o lista de produse
+[x]- Pagina de Produs
+[]- Formula de Search in header (sa caute un singur cuvant, in campul de nume al produselor)
+[x]- Pagina de 404
+[x]- Formular de contact care sa trimita un email la o adresa de email aleasa de voi
